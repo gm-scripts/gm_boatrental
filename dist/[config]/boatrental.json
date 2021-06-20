@@ -1,0 +1,132 @@
+{
+  "framework": "esx",
+  "lang": "en",
+  "keys": {
+    "openMenu": 38
+  },
+  "rentForFree": false,
+  "payForTime": true,
+  "payInterval": 5,
+  "blockIfCantPay": false,
+  "payForDamage": true,
+  "damageCost": 1,
+  "payIfDestroyed": true,
+  "destroyedPayMultiplier": 10,
+  "menu": {
+    "scale": 1,
+    "bgPrimary": "#4a4a55",
+    "bgSecondary": "#35353f",
+    "xActive": "#ff666f",
+    "xInactive": "#4a4a55"
+  },
+  "vehicles": [
+    {
+      "model": "seashark",
+      "label": "Seashark",
+      "price": 22,
+      "info": [
+        "A motorbike that you can drive on water drunk while churning up a fragile ecosystem? Yes please. The Seashark was 2011's #1 boytoy among the douchebag and mid-life crisis demographic. There are few things more fun than over-revving a Seashark up and down the shoreline, and it's a real treat for all the people who've come to the beach to relax."
+      ]
+    },
+    {
+      "model": "tropic",
+      "label": "Tropic",
+      "price": 26,
+      "info": ["A lightweight, classic-design cruiser speedboat that's been built to last. Comes with an elegant deck canopy perfect for shading the sun while sharing your wife."]
+    },
+    {
+      "model": "suntrap",
+      "label": "Suntrap",
+      "price": 15,
+      "info": ["A compact, two-seater speedboat, the Suntrap is just enough horsepower to get you into trouble."]
+    },
+    {
+      "model": "squalo",
+      "label": "Squalo",
+      "price": 42,
+      "info": ["A sleek, sexy 4-seater, this is the reason you never see an ugly woman on a speedboat."]
+    }
+  ],
+  "zones": [
+    {
+      "name": "near paleto",
+      "marker": {
+        "x": -1604.80,
+        "y": 5257.17,
+        "z": 1.08
+      },
+      "spawn": {
+        "x": -1597.74,
+        "y": 5261.22,
+        "z": -0.20,
+        "h": 23.12
+      },
+      "showBlip": true
+    },
+    {
+      "name": "big lake",
+      "marker": {
+        "x": 1301.53,
+        "y": 4221.99,
+        "z": 32.91
+      },
+      "spawn": {
+        "x": 1285.29,
+        "y": 4225.52,
+        "z": 29.81,
+        "h": 166.91
+      },
+      "showBlip": true
+    },
+    {
+      "name": "vespucci pier",
+      "marker": {
+        "x": -1607.14,
+        "y": -1130.2,
+        "z": 1.14
+      },
+      "spawn": {
+        "x": -1633.15,
+        "y": -1170.58,
+        "z": 0.20,
+        "h": 209.82
+      },
+      "showBlip": true
+    }
+  ],
+  "marker": {
+    "type": 1,
+    "direction": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "scale": {
+      "x": 2.0,
+      "y": 2.0,
+      "z": 1.0
+    },
+    "color": {
+      "r": 35,
+      "g": 191,
+      "b": 124
+    },
+    "alpha": 100,
+    "bob": false,
+    "face": false,
+    "distance": {
+      "show": 100.0,
+      "open": 2.0
+    }
+  },
+  "blips": {
+    "color": 17,
+    "id": 410,
+    "size": 1.0
+  }
+}
